@@ -1,0 +1,151 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+body   
+{
+    /*background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;*/
+    height:3000px;
+    background:#DDD;
+    padding-top:100px;
+    }
+
+.fixed {
+    background: #080;
+    color: #FFF;
+    padding: 10px;
+    position: relative;
+    bottom: 150px;
+}
+.parent{
+    width:940px;
+    background:#fff;
+    padding:10px;
+    height:600PX;
+    left:200px;
+    position:relative;
+}
+
+.child-left {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background: #Efefef;
+    float: left;
+}
+
+}
+.child-right{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background: #Efefef;
+    float:left;
+}
+.abs{
+    background:#F00;
+    color:#FFF;
+    padding:10px;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+/*div {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    background-color: azure;
+    position: absolute;
+}
+p {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    background-color: aqua;
+    position:absolute;
+
+}*/
+
+/*#region  inputForm Style */
+fieldset {
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.InputForm
+{
+    border-style:  solid;
+    border-color: gray;
+    border-width: inherit;
+    padding: 02px;
+    margin: 1px;
+    background-color: white;
+    height: 190px;
+    width: 290px;
+    vertical-align:top;
+}
+.myFormCaption {
+    display: block;
+    float: left;
+    color: black;
+    font-size: small;
+    margin-right: 5px;
+    width: 8em;
+    text-align: right;
+}
+
+
+.myFormOutput {
+    display: block;
+    float: left;
+    text-align: left;
+    width: inherit;
+}
+
+.clear {
+    background-color: yellow;
+    clear: both;
+}
+/*#endregion*/
+
+/*#region outline */
+.container {
+    background: green;
+    height: 500px;
+    width: 700px;
+    padding: 5px;
+    margin:5px;
+    position:relative;
+
+}
+
+.blue {
+    background: blue;
+    height: 400px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px;
+    left:300px;
+    position:absolute;
+}
+
+.yellow {
+    background: yellow;
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 5px;
+
+}
+
+.orange {
+    background: orange;
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 5px;
+
+}
+/*#endregion*/
